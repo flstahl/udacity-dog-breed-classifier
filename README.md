@@ -1,4 +1,7 @@
 # Dog Breed Classifier
+
+## Link to Medium Blog Post https://fmstahl.medium.com/udacity-capstone-dog-breed-classifier-cd00acd533fd
+
 ## Table of Contents
 1. [Introduction](https://github.com/flstahl/udacity-disaster-response-pipeline#introduction)
 2. [File Descriptions](https://github.com/flstahl/udacity-disaster-response-pipeline#file-descriptions)
