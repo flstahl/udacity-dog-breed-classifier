@@ -81,8 +81,13 @@ CNN from scratch : 1.1962%
 CNN from VGG16 : 39.8325%
 CNN from ResNet50 : 77.1531%
 
-We see a substantial improvement from the initial CNN created and trained from scratch to the second model based on VGG16 all the way to our final ResNet50 implementation. The reason for these drastic improvements in performance are manifold. Part of it can likely be associated with the training data as well as the model size. 
-For the CNN trained from scratch, we have chosen (after some experimentation) a quite large architecture with ~ 733,000 parameters. In comparison to the original ResNet50 architecture (23 million parameters) this still seems reasonable. Our experiments showed that a large number of parameters is useful for extracting important features needed for the classification. On the other hand, however, a large ratio of parameters to test samples creates a high risk of overfitting. This might be one of the problems our initial model had. Additionally to this, a small training data set generally creates the risk of not providing enough "data mass" for the model to be accurately trained.
+We see a substantial improvement from the initial CNN created and trained from scratch to the second model based on VGG16 all the way to our final ResNet50 implementation.
+The reason for these drastic improvements in performance are manifold. Part of it can likely be associated with the training data as well as the model size. 
+
+For the CNN trained from scratch, we have chosen (after some experimentation) a quite large architecture with ~ 733,000 parameters. In comparison to the original ResNet50 architecture (23 million parameters) this still seems reasonable. Our experiments showed that a large number of parameters is useful for extracting important features needed for the classification. 
+On the other hand, however, a large ratio of parameters to test samples creates a high risk of overfitting. This might be one of the problems our initial model had. Additionally to this, a small training data set generally creates the risk of not providing enough "data mass" for the model to be accurately trained.
 When comparing our initial model to the second one, where we used transfer learning and utilized the pre-trained VGG16, we see that the VGG16-based model only has ~68,000 parameters, therefore a lower risk of overfitting. The overall good performance was already established during the pre-training phase where the model was trained on more than 1,000,000 images. 
+
 Now, when comparing VGG16 to ResNet50, it is necessary to take into account the different complexities of the two model architectures. While VGG16 consists of 16 layers and contains about 138 million parameters, the ResNet50 model features 50 layers and has 23 million parameters. For the task at hand, the latter architecture seems to be most suitable. 
+
 Overall, we can conclude that transfer learning and, therby, making use of the extensive training that has already been performed when using these pre-trained models allows us to significantly speed up deployment and at the same time drastically improves the performance given a relatively small training data set.
