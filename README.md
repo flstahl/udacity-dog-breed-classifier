@@ -44,9 +44,6 @@ contains test images for final test of algorithm
 ### File: dog_app.ipynb
 Jupyter notebook containing all code
 
-### Files: DogResnet50Data
-training, test, validation data used in this project
-
 ### File : extract_bottleneck_features.py
 function to extract bottleneck_features from pre-trained models (courtesy of Udacity)
 
