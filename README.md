@@ -19,12 +19,19 @@ In this exercise, we have created an end-to-end application and compared differe
 The overall project consisted of 7 steps.
 
 Step 0: Import Datasets
+
 Step 1: Detect Humans
+
 Step 2: Detect Dogs
+
 Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+
 Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
+
 Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+
 Step 6: Write Algorithm
+
 Step 7: Test Algorithm
 
 
