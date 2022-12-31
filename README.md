@@ -3,10 +3,11 @@
 ## Link to Medium Blog Post https://fmstahl.medium.com/udacity-capstone-dog-breed-classifier-cd00acd533fd
 
 ## Table of Contents
-1. [Introduction](https://github.com/flstahl/udacity-disaster-response-pipeline#introduction)
-2. [File Descriptions](https://github.com/flstahl/udacity-disaster-response-pipeline#file-descriptions)
-3. [Installation](https://github.com/flstahl/udacity-disaster-response-pipeline#installation)
-4. [Results](https://github.com/flstahl/udacity-disaster-response-pipeline#results)
+1. [Introduction](https://github.com/flstahl/udacity-dog-breed-classifier#introduction)
+2. [File Descriptions](https://github.com/flstahl/udacity-dog-breed-classifier#file-descriptions)
+3. [Installation](https://github.com/flstahl/udacity-dog-breed-classifier#installation)
+4. [Results](https://github.com/flstahl/udacity-dog-breed-classifier#results)
+5. [Licensing, Authors, Acknowledgements](https://github.com/flstahl/udacity-dog-breed-classifier#licensing)
 
 
 ## Introduction
@@ -101,3 +102,17 @@ When comparing our initial model to the second one, where we used transfer learn
 Now, when comparing VGG16 to ResNet50, it is necessary to take into account the different complexities of the two model architectures. While VGG16 consists of 16 layers and contains about 138 million parameters, the ResNet50 model features 50 layers and has 23 million parameters. For the task at hand, the latter architecture seems to be most suitable. 
 
 Overall, we can conclude that transfer learning and, therby, making use of the extensive training that has already been performed when using these pre-trained models allows us to significantly speed up deployment and at the same time drastically improves the performance given a relatively small training data set.
+
+## Licensing, Authors, Acknowledgements
+A big shoutout to @udacity for providing the datasets as well as several kaggle and github kernels. Also a big thank you for creating this great project!
+Further resources used during this project include:
+
+- [American Kennel Club](https://www.akc.org/)
+- [Fédération Cynologique Internationale](www.fci.be)
+- [Everything you need to know about VGG16](https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918)
+- [Evaluation Metrics For Multi-class Classification](https://www.kaggle.com/code/nkitgupta/evaluation-metrics-for-multi-class-classification)
+- [ImageNet Utils] (https://github.com/keras-team/keras/blob/master/keras/applications/imagenet_utils.py)
+- [Deep Residual Networks (ResNet, ResNet50) - 2022 Guide - viso.ai] (https://viso.ai/deep-learning/resnet-residual-neural-network/)
+- [What is Overfitting? - Overfitting - AWS] (https://aws.amazon.com/what-is/overfitting/)
+- [The Python Requirements File and How to Create it] (https://learnpython.com/blog/python-requirements-file/)
+
