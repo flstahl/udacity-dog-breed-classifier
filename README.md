@@ -111,8 +111,8 @@ Further resources used during this project include:
 - [Fédération Cynologique Internationale](www.fci.be)
 - [Everything you need to know about VGG16](https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918)
 - [Evaluation Metrics For Multi-class Classification](https://www.kaggle.com/code/nkitgupta/evaluation-metrics-for-multi-class-classification)
-- [ImageNet Utils] (https://github.com/keras-team/keras/blob/master/keras/applications/imagenet_utils.py)
-- [Deep Residual Networks (ResNet, ResNet50) - 2022 Guide - viso.ai] (https://viso.ai/deep-learning/resnet-residual-neural-network/)
-- [What is Overfitting? - Overfitting - AWS] (https://aws.amazon.com/what-is/overfitting/)
-- [The Python Requirements File and How to Create it] (https://learnpython.com/blog/python-requirements-file/)
+- [ImageNet Utils](https://github.com/keras-team/keras/blob/master/keras/applications/imagenet_utils.py)
+- [Deep Residual Networks (ResNet, ResNet50) - 2022 Guide - viso.ai](https://viso.ai/deep-learning/resnet-residual-neural-network/)
+- [What is Overfitting? - Overfitting - AWS](https://aws.amazon.com/what-is/overfitting/)
+- [The Python Requirements File and How to Create it](https://learnpython.com/blog/python-requirements-file/)
 
