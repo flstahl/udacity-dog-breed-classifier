@@ -1,6 +1,6 @@
 # Dog Breed Classifier
 
-## Link to Medium Blog Post https://fmstahl.medium.com/udacity-capstone-dog-breed-classifier-cd00acd533fd
+## [Link to Medium Blog Post](https://fmstahl.medium.com/udacity-capstone-dog-breed-classifier-cd00acd533fd)
 
 ## Table of Contents
 1. [Introduction](https://github.com/flstahl/udacity-dog-breed-classifier#introduction)
@@ -61,30 +61,25 @@ function to extract bottleneck_features from pre-trained models (courtesy of Uda
 
 
 ## Installation
------
-PIL                         5.2.0
-cv2                         3.3.1
-extract_bottleneck_features NA
-keras                       2.0.9
-matplotlib                  2.1.0
-numpy                       1.12.1
-pandas                      0.23.3
-session_info                1.0.0
-sklearn                     0.19.1
-tqdm                        4.11.2
------
 
-Click to view modules imported as dependencies
-
+- PIL                         5.2.0
+- cv2                         3.3.1
+- extract_bottleneck_features NA
+- keras                       2.0.9
+- matplotlib                  2.1.0
+- numpy                       1.12.1
+- pandas                      0.23.3
+- session_info                1.0.0
+- sklearn                     0.19.1
+- tqdm                        4.11.2
 -----
-IPython             6.5.0
-jupyter_client      5.2.4
-jupyter_core        4.4.0
-jupyterlab          1.0.9
-notebook            5.7.0
+- IPython             6.5.0
+- jupyter_client      5.2.4
+- jupyter_core        4.4.0
+- jupyterlab          1.0.9
+- notebook            5.7.0
 -----
-Python 3.6.3 | packaged by conda-forge | (default, Dec  9 2017, 04:28:46) [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
-Linux-4.15.0-1083-gcp-x86_64-with-debian-stretch-sid
+- Python 3.6.3 
 
 ## Results
 The following accuracy was achieved with each model on the test set.
