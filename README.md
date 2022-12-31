@@ -62,6 +62,8 @@ function to extract bottleneck_features from pre-trained models (courtesy of Uda
 
 ## Installation
 
+See also [requirements.txt](https://github.com/flstahl/udacity-dog-breed-classifier/blob/main/requirements.txt) in this repo.
+
 - PIL                         5.2.0
 - cv2                         3.3.1
 - extract_bottleneck_features NA
