@@ -1,0 +1,8 @@
+Keras==2.0.9
+matplotlib==2.1.0
+numpy==1.12.1
+pandas==0.23.3
+Pillow==9.3.0
+scikit_learn==1.2.0
+session_info==1.0.0
+tqdm==4.11.2
